@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from "./Header.js";
+import Section from "./Section.js";
+import PageSection from './PageSection.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    
+      <div className="fixed top-0 left-0 w-[100%] z-50">
+        <Header />
+        
+      </div>
+      <div className = "mt-[6rem]">
+        <Section />
+        <PageSection/>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App

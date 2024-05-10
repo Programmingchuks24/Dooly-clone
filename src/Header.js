@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Header() {
   return (
-    <div className="sticky w-auto h-24 bg-zinc-900 pl-5 flex justify-between items-center ">
+    <div className="sticky w-auto h-20 bg-zinc-900 pl-5 flex justify-between items-center ">
 
         <img src = {logo} alt = "logo" className = "h-24 w-[120px]" />
 

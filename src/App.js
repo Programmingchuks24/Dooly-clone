@@ -11,7 +11,7 @@ function App() {
         <Header />
         
       </div>
-      <div className = "mt-[6rem]">
+      <div className = "mt-[5rem]">
         <Section />
         <PageSection/>
       </div>

@@ -7,11 +7,11 @@ import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 
 function PageSection() {
   return (
-    <div>
-        <h1 className = "text-5xl text-pink-600 font-bold w-[600px] pt-20 pl-5 md:ml-20">Tools for process-driven and efficiency-obsessed teams</h1>
+    <div className = "h-[90rem] w-auto">
+        <h1 className = "text-5xl text-pink-600 font-bold w-[600px] pt-20 pl-5 md:ml-20 md:w-[700px]">Tools for process-driven and efficiency-obsessed teams</h1>
 
 
-        <div className = "flex flex-col justify-evenly md:flex-row " >
+        <div className = "flex flex-col justify-evenly md:flex-row mt-10" >
 
             <div className="flex flex-col gap-2 mt-9 ml-3 w-[600px] md:w-[300px]">
                 <CloudUploadOutlinedIcon fontSize="large"/>
@@ -43,7 +43,7 @@ function PageSection() {
                 <p className="text-wrap">Run best-in-class deal reviews with a customizable deal-by-deal view that summarizes exactly what you want to know about your teams pipeline.</p>
 
                 <div  className="flex gap-2 cursor-pointer hover:text-pink-500 text-pink-600 transition duration-300 ease-in-out">
-                    <ArrowCircleRightOutlinedIcon fontSize="small"/>
+                        <ArrowCircleRightOutlinedIcon fontSize="small"/>
                     <p className="text-sm font-bold">EXPLORE DEALSPACE</p>
                 </div>
                 
@@ -51,10 +51,10 @@ function PageSection() {
 
         </div>
 
-        <div>
+        <div className = "w-[38rem] h-[220px] border-2 border-blue-700 text-wrap ml-5 mt-14 pl-10 pt-4 flex flex-col gap-4 rounded-3xl md:ml-[20rem] md:w-[47rem] md:pt-8">
             <AutoAwesomeOutlinedIcon fontSize="large"/>
-            <p>(Even) Smarter moves powered by AI</p>
-            <p>Doolys Sales AI that suggests actionable next steps on deals based on Smart notes.</p>
+            <p className = "font-bold text-xl">(Even) Smarter moves powered by AI</p>
+            <p className = "text-wrap">Doolys Sales AI that suggests actionable next steps on deals based on Smart notes.</p>
             <div  className="flex gap-2 cursor-pointer hover:text-pink-500 text-pink-600 transition duration-300 ease-in-out">
                 <ArrowCircleRightOutlinedIcon fontSize="small"/>
                 <p className="text-sm font-bold">EXPLORE RECOMMENDATIONS</p>

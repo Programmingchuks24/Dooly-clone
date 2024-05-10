@@ -21,19 +21,19 @@ function Section() {
         </div>
 
         <div className = "flex flex-col gap-5 md:flex-row">
-            <div className = "flex gap-1 w-[25rem] md:w-[20rem]">
+            <div className = "flex gap-1 w-[25rem] md:w-[17rem]">
 
                 <RocketLaunchOutlinedIcon style = {{color:"pink"}}/>  
                 <p className="text-pink-400">Reduce rep-level admin work and improve handoffs</p>
             </div>
        
-            <div className = "flex gap-1 pl-10 w-[25rem] md:w-[20rem]">
+            <div className = "flex gap-1 pl-10 w-[25rem] md:w-[17rem]">
 
                 <HandymanOutlinedIcon style = {{color:"pink"}}/>  
                 <p className="text-pink-400">Enable teams with templates and views</p>
             </div>
 
-            <div className = "flex gap-1 pl-8 w-[25rem] md:w-[20rem]">
+            <div className = "flex gap-1 pl-8 w-[25rem] md:w-[17rem]">
                     
                 <CloudUploadOutlinedIcon style = {{color:"pink"}}/>  
                 <p className="text-pink-400">Gain CRM hygiene and  forecast accuracy</p>

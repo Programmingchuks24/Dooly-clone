@@ -2,6 +2,8 @@ import React from 'react'
 import Header from "./Header.js";
 import Section from "./Section.js";
 import PageSection from './PageSection.js';
+import Mainpage from './Mainpage.js';
+
 
 function App() {
   return (
@@ -11,10 +13,12 @@ function App() {
         <Header />
         
       </div>
-      <div className = "mt-[5rem]">
+      <div className = "mt-[5rem] overflow-hidden">
         <Section />
         <PageSection/>
+        <Mainpage/>
       </div>
+      
     </>
   )
 }

@@ -8,11 +8,11 @@ import textin from "./pics/Notes-In-Meeting-Capture.png";
 
 function Section() {
   return (
-    <section className="h-[60rem] w-auto bg-zinc-900 flex flex-col items-center gap-4 pt-8 md:h-[60rem] md:overflow-x-hidden">
+    <section className="h-[60rem] w-auto bg-zinc-900 flex flex-col items-center gap-4 pt-8  md:h-[60rem] md:overflow-x-hidden">
 
-        <div className="flex flex-col gap-2">
-            <h1 className = "text-white text-5xl text-wrap font-bold">From chaotic process to </h1>
-            <h1 className="text-white text-5xl text-wrap font-bold pl-7 "><u>consistenc</u>y<u> in selling</u></h1>
+        <div className="flex flex-col gap-1">
+            <h1 className = "text-white text-4xl text-wrap font-bold sm:text-5xl md:text-5xl">From chaotic process to </h1>
+            <h1 className="text-white text-4xl text-wrap font-bold pl-7 sm:text-5xl md:text-5xl "><u>consistenc</u>y<u> in selling</u></h1>
         </div>
         
         <div>
@@ -40,10 +40,10 @@ function Section() {
             </div>
         </div>
         
-        <div className = "flex gap-5 mt-3">
+        <div className = "flex flex-col gap-5 mt-3 sm:flex-row md:flex-row">
 
             <button className = "w-[300px] h-12 bg-pink-600 text-nowrap text-white font-bold rounded hover:bg-pink-500 transition duration-300 ease-in-out">SEE HOW DOOLY DOES THIS</button>
-            <button className="w-[150px] h-12 border-2 border-pink-600 text-nowrap text-pink-600 font-bold rounded hover:border-pink-500 hover:text-pink-500 transition duration-300 ease-in-out">OR TALK TO US</button>
+            <button className="w-[150px] h-12 border-2 ml-20 sm:ml-0 md:ml-0 border-pink-600 text-nowrap text-pink-600 font-bold rounded hover:border-pink-500 hover:text-pink-500 transition duration-300 ease-in-out">OR TALK TO US</button>
         </div>
 
         <div className = "flex gap-2">
@@ -53,7 +53,7 @@ function Section() {
         
         <div className="flex relative mt-5"> 
             <img src={pipeline} alt="pipeline" className = "hidden relative right-[5rem] h-[28rem] md:block"/>
-            <img src={space1} alt="graph" className = "h-[30rem] relative  md:right-[15rem] md:top-[-20px] z-10"/>
+            <img src={space1} alt="graph" className = "h-[20rem] relative  md:right-[15rem] md:top-[-20px] sm:h-[30rem] md:h-[30rem] z-10"/>
             <img src={textin} alt="textin" className="hidden relative right-[20rem] h-[28rem] z-0 md:block" />
         </div>
 

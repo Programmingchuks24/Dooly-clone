@@ -3,7 +3,7 @@ import Header from "./Header.js";
 import Section from "./Section.js";
 import PageSection from './PageSection.js';
 import Mainpage from './Mainpage.js';
-
+import Second from './Second.js';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Section />
         <PageSection/>
         <Mainpage/>
+        <Second/>
       </div>
       
     </>

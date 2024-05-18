@@ -15,7 +15,7 @@ import courtney from "./pics/customer-courtney-malinas.png";
 
 function Mainpage() {
   return (
-    <div className="w-auto h-[76rem] bg-zinc-900 md:h-auto sm:h-[70rem]">
+    <div className="w-auto h-[76rem] bg-zinc-900 md:h-[58rem] sm:h-[70rem]">
 
         <div className = "grid grid-cols-2 grid-rows-5 gap-14 pt-9 pl-2 pr-2 items-center justify-items-center md:grid-cols-5  md:pt-14 md:w-[80rem] md:pl-12">
 

@@ -5,7 +5,7 @@ import third from "./pics/Too-Many-Tabs-1536x256.png";
 
 function Second() {
   return (
-    <div className = "w-auto h-[100rem] bg-pink-400 pt-14 md:flex md:justify-items-center md:place-items-center md:flex-col md:pt-14 md:h-[120rem]">
+    <div className = "w-auto h-[80rem] bg-pink-400 pt-14 md:flex md:justify-items-center md:place-items-center md:flex-col md:pt-14 md:h-[120rem]">
 
         <p className="text-5xl font-bold w-[25rem] text-center ml-12 sm:ml-8 sm:w-[38rem] sm:text-5xl md:text-6xl md:w-[49rem]">Your process isnt faulty, its just not being followed.</p>
 

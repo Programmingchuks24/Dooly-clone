@@ -5,6 +5,7 @@ import PageSection from './PageSection.js';
 import Mainpage from './Mainpage.js';
 import Second from './Second.js';
 import Third from './Third.js';
+import Fourth from './Fourth.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Mainpage/>
       <Second/>
       <Third/>
+      <Fourth/>
     </div>
     
   </>

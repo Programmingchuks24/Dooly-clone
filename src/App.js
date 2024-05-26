@@ -8,6 +8,7 @@ import Third from './Third.js';
 import Fourth from './Fourth.js';
 import Fifth from './Fifth.js';
 import Sixth from './Sixth.js';
+import Next from './Next.js';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Fourth/>
       <Fifth/>
       <Sixth/>
+      <Next/>
     </div>
     
   </>

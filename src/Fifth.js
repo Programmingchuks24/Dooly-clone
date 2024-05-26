@@ -59,7 +59,7 @@ function Fifth() {
         <div className = "flex flex-col gap-7 ml-5 mt-3">
             <p className = "text-pink-400 text-3xl">Figma</p>
 
-            <p className="text-pink-600 font-bold text-3xl w-[26rem] text-wrap sm:w-[39rem]">“Dooly changes the game for salespeople. What used to take 2 hours a day now takes 30 minutes with Dooly. We can focus on selling instead of dealing with Salesforce’s updating nightmare.”</p>
+            <p className="text-pink-600 font-bold text-3xl w-[26rem] text-wrap sm:w-[39rem] md:text-4xl md:w-[49rem]">“Dooly changes the game for salespeople. What used to take 2 hours a day now takes 30 minutes with Dooly. We can focus on selling instead of dealing with Salesforce’s updating nightmare.”</p>
 
             <div className = "flex gap-2 cursor-pointer hover:text-pink-500 text-pink-400 transition duration-300 ease-in-out"> 
                 <ArrowCircleRightOutlinedIcon fontSize="medium" className = "" />

@@ -7,7 +7,7 @@ import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOu
 
 function Fifth() {
   return (
-    <div className="w-auto h-[200rem] bg-zinc-900 pt-7 md:h-[215rem]">
+    <div className="w-auto h-[200rem] bg-zinc-900 pt-7 md:h-[220rem]">
 
         <p className = "block text-pink-400 text-5xl font-bold text-center w-[29rem] leading-[3.5rem] ml-4 sm:text-center sm:w-[39rem] sm:ml-7 md:w-[48rem] md:ml-[20rem] md:mt-24">Empower your team with sales technology that works for them – intuitive, responsive, and tailored to your process.</p>
 
@@ -56,7 +56,7 @@ function Fifth() {
             <img src={pic3} alt="pic" className="w-[30rem] h-[20rem] block justify-self-center place-self-center sm:w-[38rem] sm:h-[30rem] md:w-[55rem] md:h-[45rem]"/>
         </div>
 
-        <div className = "flex flex-col gap-7 ml-5 mt-3">
+        <div className = "flex flex-col gap-7 ml-5 mt-3 md:ml-16 md:mt-24">
             <p className = "text-pink-400 text-3xl">Figma</p>
 
             <p className="text-pink-600 font-bold text-3xl w-[26rem] text-wrap sm:w-[39rem] md:text-4xl md:w-[49rem]">“Dooly changes the game for salespeople. What used to take 2 hours a day now takes 30 minutes with Dooly. We can focus on selling instead of dealing with Salesforce’s updating nightmare.”</p>

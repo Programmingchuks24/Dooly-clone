@@ -7,7 +7,7 @@ import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOu
 
 function Fifth() {
   return (
-    <div className="w-auto h-[200rem] bg-zinc-900 pt-7 md:h-[220rem]">
+    <div className="w-auto h-[200rem] bg-zinc-900 pt-7 md:h-[215rem]">
 
         <p className = "block text-pink-400 text-5xl font-bold text-center w-[29rem] leading-[3.5rem] ml-4 sm:text-center sm:w-[39rem] sm:ml-7 md:w-[48rem] md:ml-[20rem] md:mt-24">Empower your team with sales technology that works for them – intuitive, responsive, and tailored to your process.</p>
 

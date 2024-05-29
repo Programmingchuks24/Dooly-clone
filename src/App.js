@@ -10,6 +10,7 @@ import Fifth from './Fifth.js';
 import Sixth from './Sixth.js';
 import Next from './Next.js';
 import Last from './Last.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Sixth/>
       <Next/>
       <Last/>
+      <Footer/>
     </div>
     
   </>

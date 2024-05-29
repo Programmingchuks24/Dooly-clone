@@ -6,7 +6,7 @@ import UploadFileOutlinedIcon from '@mui/icons-material/UploadFileOutlined';
 
 function Next() {
   return (
-    <div className="w-auto h-[80rem] bg-zinc-900 text-white md:h-[60rem]">
+    <div className="w-auto h-[80rem] bg-zinc-900 text-white md:h-[55rem]">
 
         <p className = "text-4xl font-bold w-[20rem] text-center ml-20 sm:text-5xl sm:w-[35rem] sm:ml-14 md:text-6xl md:w-[49rem] md:ml-[17rem]">Process-driven sales and CS teams use Dooly for:</p>
 

@@ -20,7 +20,7 @@ function App() {
       <Header />
       
     </div>
-    <div className = "mt-[5rem] overflow-hidden">
+    <div className = "mt-[5rem] md:overflow-hidden">
       <Section />
       <PageSection/>
       <Mainpage/>

@@ -11,17 +11,21 @@ import Sixth from './Sixth.js';
 import Next from './Next.js';
 import Last from './Last.js';
 import Footer from './Footer.js';
+import Mainheader from "./Mainheader.js";
+import Newfirst from './Newfirst.js'; // Import the NewFirst component
+
 
 function App() {
   return (
-  <div className="w-fit h-fit">
+  <>
   
-    <div className="fixed top-0 left-0 w-[100%] z-50">
+    {/* <div className="fixed top-0 left-0 w-[100%] z-50">
       <Header />
       
-    </div>
-    <div className = "mt-[5rem] overflow-hidden">
-      <Section />
+    </div> */}
+    <div className = "mt-[5rem] w-full"> 
+      <Mainheader/> 
+      <Section/>
       <PageSection/>
       <Mainpage/>
       <Second/>
@@ -34,7 +38,7 @@ function App() {
       <Footer/>
     </div>
     
-  </div>
+  </>
 
   )
 }

@@ -8,7 +8,7 @@ function Last() {
 
         <div className="flex flex-col ml-10 mt-7 md:flex-row md:ml-16">
 
-            <div className = "text-white w-[27rem] h-[16rem] rounded-t-3xl sm:w-[38rem] sm:h-[14rem] md:w-[38rem] md:h-[24rem] bg-pink-600  md:pl-16 flex flex-col gap-5 pl-5 pt-5 md:rounded-t-none md:rounded-l-3xl md:pt-16">
+            <div className = "text-white w-[27rem] h-[16rem] rounded-t-3xl sm:w-[38rem] sm:h-[14rem] md:w-[38rem] md:h-[24rem] bg-pink-600  md:pl-16 flex flex-col gap-5 pl-5 pt-5  md:rounded-l-3xl md:rounded-r-none md:pt-16">
                 <p className="text-4xl font-bold">Get started now</p>
                 <p className="text-xl w-[24rem] text-left sm:w-[35rem] md:w-[29rem] md:text-2xl">Why wait? Dooly provides unlimited access to our platform features and capabilities  — for free. Start exploring today!</p>
                 <p className = "bg-zinc-900 w-[15rem] h-12 rounded-md text-center pt-3 font-bold cursor-pointer hover:bg-zinc-800 transition duration-300 ease-in-out md:mt-9">CREATE A FREE ACCOUNT</p>

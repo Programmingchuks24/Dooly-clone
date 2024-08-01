@@ -23,9 +23,9 @@ function App() {
       <Header />
       
     </div> */}
-    <div className = "mt-[5rem] w-full"> 
+    <div className = "mt-[5rem] w-fit overflow-hidden"> 
       <Mainheader/> 
-      <Section/>
+      {/* <Section/> */}
       <PageSection/>
       <Mainpage/>
       <Second/>

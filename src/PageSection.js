@@ -7,7 +7,7 @@ import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 
 function PageSection() {
   return (
-    <div className = "h-[79rem] w-auto md:h-[50rem] bg-white sm:h-[75rem]">
+    <div className = "h-[86rem] w-auto md:h-[50rem] bg-white sm:h-[75rem]">
         <h1 className = "text-5xl text-pink-600 font-bold w-auto pt-20 pl-5 sm:w-[600px] md:ml-20 md:w-[700px]">Tools for process-driven and efficiency-obsessed teams</h1>
 
 
@@ -51,7 +51,7 @@ function PageSection() {
 
         </div>
 
-        <div className = "w-[24.5rem] h-[220px] border-2 border-blue-700 text-wrap ml-5 mt-14 pl-5 pt-4 flex flex-col gap-4 rounded-3xl md:ml-[20rem] sm:w-[38rem] sm:h-[220px] md:h-[220px] md:w-[47rem] md:pt-8">
+        <div className = "w-auto h-[232px] border-2 border-blue-700 text-wrap ml-auto mt-14 pl-5 pt-4 flex flex-col gap-4 rounded-3xl md:ml-[20rem] sm:w-[38rem] sm:h-[220px] md:h-[220px] md:w-[47rem] md:pt-8">
             <AutoAwesomeOutlinedIcon fontSize="large"/>
             <p className = "font-bold text-xl">(Even) Smarter moves powered by AI</p>
             <p className = "text-wrap">Doolys Sales AI that suggests actionable next steps on deals based on Smart notes.</p>

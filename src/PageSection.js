@@ -8,12 +8,12 @@ import AutoAwesomeOutlinedIcon from '@mui/icons-material/AutoAwesomeOutlined';
 function PageSection() {
   return (
     <div className = "h-[79rem] w-auto md:h-[50rem] bg-white sm:h-[75rem]">
-        <h1 className = "text-5xl text-pink-600 font-bold w-[400px] pt-20 pl-5 sm:w-[600px] md:ml-20 md:w-[700px]">Tools for process-driven and efficiency-obsessed teams</h1>
+        <h1 className = "text-5xl text-pink-600 font-bold w-auto pt-20 pl-5 sm:w-[600px] md:ml-20 md:w-[700px]">Tools for process-driven and efficiency-obsessed teams</h1>
 
 
         <div className = "flex flex-col justify-evenly md:flex-row mt-10" >
 
-            <div className="flex flex-col gap-2 mt-9 ml-3 w-[400px] sm:w-[600px] md:w-[300px]">
+            <div className="flex flex-col gap-2 mt-9 ml-3 w-auto sm:w-[600px] md:w-[300px]">
                 <CloudUploadOutlinedIcon fontSize="large"/>
                 <p className = "text-xl font-bold">Smart Notes & Documents</p>
                 <p className = "text-wrap">Eliminate hours of soul-crushing admin with an automatic note system that syncs fields and notes to Salesforce.</p>
@@ -25,7 +25,7 @@ function PageSection() {
                 
             </div>
 
-            <div className="flex flex-col gap-2 mt-9 ml-3 w-[400px] sm:w-[600px] md:w-[300px]">
+            <div className="flex flex-col gap-2 mt-9 ml-3 w-auto sm:w-[600px] md:w-[300px]">
                 <SearchOutlinedIcon fontSize="large"/>
                 <p className = "text-xl font-bold">Pipeline Manager</p>
                 <p className = "text-wrap">Visually, intuitively, and swiftly take control of your pipeline to keep your deals and account on track, and managers off your back.</p>
@@ -37,7 +37,7 @@ function PageSection() {
                 
             </div>
 
-            <div className = "flex flex-col gap-2 mt-9 ml-3 w-[400px] sm:w-[600px] md:w-[300px]">
+            <div className = "flex flex-col gap-2 mt-9 ml-3 w-auto sm:w-[600px] md:w-[300px]">
                 <DesktopWindowsOutlinedIcon fontSize = "large"/>
                 <p className = "text-xl font-bold">DealSpace</p>
                 <p className="text-wrap">Run best-in-class deal reviews with a customizable deal-by-deal view that summarizes exactly what you want to know about your teams pipeline.</p>

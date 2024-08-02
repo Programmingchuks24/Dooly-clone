@@ -23,7 +23,7 @@ function App() {
       <Header />
       
     </div> */}
-    <div className = "mt-[5rem] w-fit overflow-hidden"> 
+    <div className = "mt-[5rem] overflow-hidden"> 
       <Mainheader/> 
       {/* <Section/> */}
       <PageSection/>

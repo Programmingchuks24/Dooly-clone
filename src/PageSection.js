@@ -28,7 +28,7 @@ function PageSection() {
             <div className="flex flex-col gap-2 mt-9 ml-3 w-auto sm:w-[600px] md:w-[300px]">
                 <SearchOutlinedIcon fontSize="large"/>
                 <p className = "text-xl font-bold">Pipeline Manager</p>
-                <p className = "text-wrap">Visually, intuitively, and swiftly take control of your pipeline to keep your deals and account on track, and managers off your back.</p>
+                <p className = "text-wrap ml-auto mr-auto">Visually, intuitively, and swiftly take control of your pipeline to keep your deals and account on track, and managers off your back.</p>
 
                 <div className= "flex gap-2 cursor-pointer hover:text-pink-500 text-pink-600 transition duration-300 ease-in-out">
                     <ArrowCircleRightOutlinedIcon fontSize="small"/>
@@ -40,7 +40,7 @@ function PageSection() {
             <div className = "flex flex-col gap-2 mt-9 ml-3 w-auto sm:w-[600px] md:w-[300px]">
                 <DesktopWindowsOutlinedIcon fontSize = "large"/>
                 <p className = "text-xl font-bold">DealSpace</p>
-                <p className="text-wrap">Run best-in-class deal reviews with a customizable deal-by-deal view that summarizes exactly what you want to know about your teams pipeline.</p>
+                <p className="text-wrap w-auto">Run best-in-class deal reviews with a customizable deal-by-deal view that summarizes exactly what you want to know about your teams pipeline.</p>
 
                 <div  className="flex gap-2 cursor-pointer hover:text-pink-500 text-pink-600 transition duration-300 ease-in-out">
                         <ArrowCircleRightOutlinedIcon fontSize="small"/>
@@ -51,7 +51,7 @@ function PageSection() {
 
         </div>
 
-        <div className = "w-auto h-[232px] border-2 border-blue-700 text-wrap ml-auto mt-14 pl-5 pt-4 flex flex-col gap-4 rounded-3xl md:ml-[20rem] sm:w-[38rem] sm:h-[220px] md:h-[220px] md:w-[47rem] md:pt-8">
+        <div className = "w-[20rem] h-[16rem] border-2 border-blue-700 text-wrap ml-auto mr-auto mt-14 pl-2 pt-4 flex flex-col gap-4 rounded-3xl md:ml-[20rem] sm:w-[38rem] sm:h-[220px] md:h-[220px] md:w-[47rem] md:pt-8">
             <AutoAwesomeOutlinedIcon fontSize="large"/>
             <p className = "font-bold text-xl">(Even) Smarter moves powered by AI</p>
             <p className = "text-wrap">Doolys Sales AI that suggests actionable next steps on deals based on Smart notes.</p>
